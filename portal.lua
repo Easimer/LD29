@@ -1,0 +1,1 @@
+portal = class:new()
