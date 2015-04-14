@@ -1,6 +1,6 @@
 --MonsterBase
-require("/lib/class")
-require("/lib/loveframes")
+require("lib/class")
+require("lib/loveframes")
 monsterbase = class:new()
 
 monsterbase.health = 10

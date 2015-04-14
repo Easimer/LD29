@@ -5,10 +5,10 @@ walker = monsterbase:new()
 walker.setImage = function(self, color)
 	self.color = color
 	if color == "black" then
-    	self.image = love.graphics.newImage("/data/monsters/walker_black.png")
+    	self.image = love.graphics.newImage("data/monsters/walker_black.png")
     	self.flip = true
 	elseif color == "white" then
-		self.image = love.graphics.newImage("/data/monsters/walker_white.png")
+		self.image = love.graphics.newImage("data/monsters/walker_white.png")
 
 	end
 end

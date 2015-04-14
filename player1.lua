@@ -1,6 +1,6 @@
-require("/lib/class")
-require("/lib/simpletools")
-require("/lib/loveframes")
+require("lib/class")
+require("lib/simpletools")
+require("lib/loveframes")
 player1 = class:new()
 
 player1.position = {}
@@ -29,7 +29,7 @@ player1.number = 1
 
 player1.set = function(self, number)
 	self.number = number
-	self.image = love.graphics.newImage ("/data/player/player1.png")
+	self.image = love.graphics.newImage ("data/player/player1.png")
 	self.rotation=math.pi
 end
 

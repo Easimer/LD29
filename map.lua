@@ -1,4 +1,4 @@
-require("/lib/class")
+require("lib/class")
 require("walker")
 
 map = class:new()
